@@ -4,6 +4,7 @@ Web estática (HTML + CSS, sin dependencias) de PitScan OBD2.
 
 - `index.html` — portada con capturas y botón de Google Play.
 - `privacidad.html` — política de privacidad (español `#es` e inglés `#en`).
+- `terminos.html` — términos del servicio (español `#es` e inglés `#en`).
 - `soporte.html` — contacto y preguntas frecuentes.
 - `style.css` — colores de la app (`lib/theme.dart`).
 - `img/` — icono y capturas (≈1080 × 1654, del móvil, en inglés).
@@ -20,3 +21,4 @@ Web estática (HTML + CSS, sin dependencias) de PitScan OBD2.
 - **Netlify:** arrastrar la carpeta a app.netlify.com/drop.
 
 URL de la política para Google Play: `https://<dominio>/privacidad.html`.
+Términos del servicio: `https://<dominio>/terminos.html`.
