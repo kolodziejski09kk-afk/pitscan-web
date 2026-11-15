@@ -136,6 +136,13 @@ nav.site a:hover, nav.site a[aria-current="page"] { color: var(--text); backgrou
   text-decoration: none; color: var(--text-dim); font-size: 15px; font-weight: 600;
 }
 .lang-switch a:hover { color: var(--text); background: var(--surface-high); }
+.lang-switch a[aria-current="true"] { color: var(--text); background: var(--surface-high); border-color: var(--blue); }
+.hero .lang-switch { justify-content: center; }
+
+/* Idioma (lang.js): con JavaScript solo se ve el idioma elegido. */
+html.js[data-lang="es"] .l10n[lang="en"],
+html.js[data-lang="en"] .l10n[lang="es"],
+html.js hr.sep { display: none; }
 .note {
   background: var(--surface); border: 1px solid var(--border); border-left: 4px solid var(--green);
   border-radius: 12px; padding: 14px 18px; margin: 20px 0;

@@ -3,64 +3,93 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Soporte — PitScan OBD2</title>
-  <meta name="description" content="Contacto y soporte de PitScan OBD2.">
+  <title data-en="Support — PitScan OBD2">Soporte — PitScan OBD2</title>
+  <meta name="description" content="Contacto y soporte de PitScan OBD2." data-en="PitScan OBD2 contact and support.">
   <meta name="theme-color" content="#070d18">
   <link rel="icon" href="img/favicon.png" type="image/png">
   <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
   <link rel="stylesheet" href="style.css">
+  <script src="lang.js"></script>
 </head>
 <body>
   <header class="site">
     <div class="wrap">
       <a class="brand" href="index.html"><img src="img/favicon.png" alt="" width="36" height="36"><b>Pit<span>Scan</span></b></a>
       <nav class="site">
-        <a href="index.html">Inicio</a>
-        <a href="privacidad.html">Privacidad</a>
-        <a href="terminos.html">Términos</a>
-        <a href="soporte.html" aria-current="page">Soporte</a>
+        <a href="index.html" data-en="Home">Inicio</a>
+        <a href="privacidad.html" data-en="Privacy">Privacidad</a>
+        <a href="terminos.html" data-en="Terms">Términos</a>
+        <a href="soporte.html" aria-current="page" data-en="Support">Soporte</a>
       </nav>
     </div>
   </header>
 
   <main class="page">
-    <h1>Contacto y soporte</h1>
-    <p class="meta">¿Dudas, un fallo o una sugerencia? Escríbenos.</p>
+    <!-- ===================== ESPAÑOL ===================== -->
+    <section id="es" lang="es" class="l10n">
+      <div class="lang-switch"><a href="#es">Español</a><a href="#en">English</a></div>
+      <h1>Contacto y soporte</h1>
+      <p class="meta">¿Dudas, un fallo o una sugerencia? Escríbenos.</p>
 
-    <p><a class="mail" href="mailto:pitscanobd2@gmail.com?subject=PitScan%20-%20Soporte">✉ pitscanobd2@gmail.com</a></p>
+      <p><a class="mail" href="mailto:pitscanobd2@gmail.com?subject=PitScan%20-%20Soporte">✉ pitscanobd2@gmail.com</a></p>
 
-    <h2>Para ayudarte más rápido</h2>
-    <p>Si es un problema de conexión o de lectura, cuéntanos:</p>
-    <ul>
-      <li>Modelo de teléfono y versión de Android o iOS.</li>
-      <li>Tipo de adaptador (Bluetooth LE, Bluetooth clásico o Wi-Fi) y, si lo sabes, su marca.</li>
-      <li>Marca, modelo, año y motor del coche.</li>
-      <li>Qué estabas haciendo y qué mensaje salió. Una captura de pantalla ayuda mucho.</li>
-    </ul>
-    <div class="note">No hace falta que nos mandes el VIN ni la matrícula. Si compartes un informe, la app los oculta por defecto.</div>
+      <h2>Para ayudarte más rápido</h2>
+      <p>Si es un problema de conexión o de lectura, cuéntanos:</p>
+      <ul>
+        <li>Modelo de teléfono y versión de Android o iOS.</li>
+        <li>Tipo de adaptador (Bluetooth LE, Bluetooth clásico o Wi-Fi) y, si lo sabes, su marca.</li>
+        <li>Marca, modelo, año y motor del coche.</li>
+        <li>Qué estabas haciendo y qué mensaje salió. Una captura de pantalla ayuda mucho.</li>
+      </ul>
+      <div class="note">No hace falta que nos mandes el VIN ni la matrícula. Si compartes un informe, la app los oculta por defecto.</div>
 
-    <h2>Preguntas frecuentes</h2>
-    <h3>¿Qué adaptador necesito?</h3>
-    <p>Un adaptador OBD2 compatible con ELM327, por Bluetooth LE, Bluetooth clásico o Wi-Fi. En iPhone funcionan los de Bluetooth LE y Wi-Fi.</p>
-    <h3>¿Puedo probarla sin coche?</h3>
-    <p>Sí: el modo demo simula un coche con averías y sensores en movimiento.</p>
-    <h3>¿Puede estropear el coche?</h3>
-    <p>PitScan solo lee la información que el coche ofrece por OBD2. La única acción que cambia algo es «Borrar códigos», que pide confirmación y guarda antes una copia.</p>
-    <h3>¿Dónde están mis datos?</h3>
-    <p>Solo en tu teléfono. Más detalles en la <a href="privacidad.html">política de privacidad</a>.</p>
+      <h2>Preguntas frecuentes</h2>
+      <h3>¿Qué adaptador necesito?</h3>
+      <p>Un adaptador OBD2 compatible con ELM327, por Bluetooth LE, Bluetooth clásico o Wi-Fi. En iPhone funcionan los de Bluetooth LE y Wi-Fi.</p>
+      <h3>¿Puedo probarla sin coche?</h3>
+      <p>Sí: el modo demo simula un coche con averías y sensores en movimiento.</p>
+      <h3>¿Puede estropear el coche?</h3>
+      <p>PitScan solo lee la información que el coche ofrece por OBD2. La única acción que cambia algo es «Borrar códigos», que pide confirmación y guarda antes una copia.</p>
+      <h3>¿Dónde están mis datos?</h3>
+      <p>Solo en tu teléfono. Más detalles en la <a href="privacidad.html#es">política de privacidad</a>.</p>
+    </section>
 
     <hr class="sep">
 
-    <section lang="en" id="en">
-      <h2>Support (English)</h2>
-      <p>Questions, a bug or a suggestion? Email us at <a href="mailto:pitscanobd2@gmail.com?subject=PitScan%20-%20Support">pitscanobd2@gmail.com</a>. For connection problems, please tell us your phone model and OS version, adapter type (Bluetooth LE, classic Bluetooth or Wi-Fi), and the car's make, model, year and engine. A screenshot helps a lot. There is no need to send the VIN or licence plate. See the <a href="privacidad.html#en">privacy policy</a>.</p>
+    <!-- ===================== ENGLISH ===================== -->
+    <section id="en" lang="en" class="l10n">
+      <div class="lang-switch"><a href="#es">Español</a><a href="#en">English</a></div>
+      <h1>Contact and support</h1>
+      <p class="meta">Questions, a bug or a suggestion? Write to us.</p>
+
+      <p><a class="mail" href="mailto:pitscanobd2@gmail.com?subject=PitScan%20-%20Support">✉ pitscanobd2@gmail.com</a></p>
+
+      <h2>To help you faster</h2>
+      <p>If it is a connection or reading problem, tell us:</p>
+      <ul>
+        <li>Phone model and Android or iOS version.</li>
+        <li>Adapter type (Bluetooth LE, classic Bluetooth or Wi-Fi) and, if you know it, its brand.</li>
+        <li>The car's make, model, year and engine.</li>
+        <li>What you were doing and what message appeared. A screenshot helps a lot.</li>
+      </ul>
+      <div class="note">There is no need to send us the VIN or the licence plate. If you share a report, the app hides them by default.</div>
+
+      <h2>Frequently asked questions</h2>
+      <h3>Which adapter do I need?</h3>
+      <p>An ELM327-compatible OBD2 adapter, over Bluetooth LE, classic Bluetooth or Wi-Fi. On iPhone, Bluetooth LE and Wi-Fi adapters work.</p>
+      <h3>Can I try it without a car?</h3>
+      <p>Yes: demo mode simulates a car with faults and moving sensor readings.</p>
+      <h3>Can it damage the car?</h3>
+      <p>PitScan only reads the information the car provides over OBD2. The only action that changes anything is "Clear codes", which asks for confirmation and saves a copy first.</p>
+      <h3>Where is my data?</h3>
+      <p>Only on your phone. More details in the <a href="privacidad.html#en">privacy policy</a>.</p>
     </section>
   </main>
 
   <footer class="site">
     <div class="wrap">
       <span>© 2026 PitScan OBD2</span>
-      <nav><a href="index.html">Inicio</a><a href="privacidad.html">Privacidad</a><a href="terminos.html">Términos</a></nav>
+      <nav><a href="index.html" data-en="Home">Inicio</a><a href="privacidad.html" data-en="Privacy">Privacidad</a><a href="terminos.html" data-en="Terms">Términos</a><a href="soporte.html" data-en="Support">Soporte</a></nav>
     </div>
   </footer>
 </body>
